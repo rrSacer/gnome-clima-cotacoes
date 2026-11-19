@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.cotacoes-carteira" path="/org/gnome/shell/extensions/cotacoes-carteira/">
+    <key name="btc-addresses" type="s">
+      <default>""</default>
+      <summary>Endereços Bitcoin (separados por vírgula)</summary>
+    </key>
+    <key name="evm-address" type="s">
+      <default>""</default>
+      <summary>Endereço público da MetaMask (0x...)</summary>
+    </key>
+    <key name="scan-wrapped" type="b">
+      <default>true</default>
+      <summary>Procurar WBTC e cbBTC na conta da MetaMask</summary>
+    </key>
+    <key name="hide-balance" type="b">
+      <default>false</default>
+      <summary>Ocultar o saldo da carteira</summary>
+    </key>
+    <key name="refresh-minutes" type="i">
+      <range min="1" max="60"/>
+      <default>5</default>
+      <summary>Intervalo de atualização em minutos</summary>
+    </key>
+    <key name="balance" type="d">
+      <default>-1.0</default>
+      <summary>Último saldo conhecido em BTC (-1 = nenhum)</summary>
+    </key>
+    <key name="prev-balance" type="d">
+      <default>-1.0</default>
+      <summary>Saldo anterior à última mudança</summary>
+    </key>
+    <key name="balance-changed-at" type="s">
+      <default>""</default>
+      <summary>Quando o saldo mudou pela última vez (ISO 8601)</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <default>"center"</default>
+      <summary>Posição na barra (left, center, right)</summary>
+    </key>
+  </schema>
+</schemalist>

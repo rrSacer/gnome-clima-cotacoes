@@ -1,0 +1,23 @@
+.cot-root { width: 500px; padding: 14px 16px 8px 16px; spacing: 10px; }
+.cot-row { spacing: 10px; }
+.cot-card { padding: 12px 14px; border-radius: 14px; background-color: rgba(128, 128, 128, 0.14); spacing: 3px; }
+.cot-card-head { spacing: 6px; margin-bottom: 2px; }
+.cot-card-title { font-size: 12px; font-weight: bold; color: rgba(190, 190, 190, 1); }
+.cot-main { font-size: 22px; font-weight: bold; }
+.cot-wallet-brl { font-size: 17px; font-weight: bold; }
+.cot-sub { font-size: 12px; }
+.cot-change { font-size: 12px; font-weight: bold; }
+.cot-muted { font-size: 11px; color: rgba(160, 160, 160, 1); }
+.cot-small { font-size: 11px; }
+.cot-line { spacing: 8px; }
+.cot-separator { height: 1px; background-color: rgba(128, 128, 128, 0.3); margin: 6px 0 4px 0; }
+.cot-up { color: #57e389; }
+.cot-down { color: #ff7b63; }
+.cot-flat { color: rgba(160, 160, 160, 1); }
+.cot-arrow { font-size: 10px; margin-left: 2px; }
+.cot-panel-box { spacing: 5px; }
+.cot-footer { spacing: 4px; padding-top: 2px; }
+.cot-icon-button { padding: 4px 6px; border-radius: 8px; }
+.cot-icon-button:hover, .cot-icon-button:focus { background-color: rgba(128, 128, 128, 0.25); }
+.cot-button { padding: 6px 14px; margin-top: 8px; border-radius: 10px; background-color: rgba(128, 128, 128, 0.25); }
+.cot-button:hover, .cot-button:focus { background-color: rgba(128, 128, 128, 0.4); }

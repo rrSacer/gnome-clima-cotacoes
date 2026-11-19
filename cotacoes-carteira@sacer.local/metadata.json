@@ -1,0 +1,8 @@
+{
+  "uuid": "cotacoes-carteira@sacer.local",
+  "name": "Cotações e Carteira BTC",
+  "description": "Mostra na barra do topo o dólar em reais e o Bitcoin em dólares, com variação do dia. Lê o saldo de BTC da sua carteira (Bitcoin nativo e WBTC/cbBTC da MetaMask) só pelo endereço público e mostra quanto vale em reais, se subiu ou caiu.",
+  "shell-version": ["47", "48", "49", "50", "51"],
+  "settings-schema": "org.gnome.shell.extensions.cotacoes-carteira",
+  "version": 1
+}
