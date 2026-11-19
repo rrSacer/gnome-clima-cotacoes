@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clima-google" path="/org/gnome/shell/extensions/clima-google/">
+    <key name="location-name" type="s">
+      <default>"Campo Grande, RJ"</default>
+      <summary>Nome do local</summary>
+    </key>
+    <key name="latitude" type="d">
+      <default>-22.9006</default>
+      <summary>Latitude</summary>
+    </key>
+    <key name="longitude" type="d">
+      <default>-43.5614</default>
+      <summary>Longitude</summary>
+    </key>
+    <key name="refresh-minutes" type="i">
+      <range min="5" max="180"/>
+      <default>15</default>
+      <summary>Intervalo de atualização em minutos</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <default>"center"</default>
+      <summary>Posição na barra (left, center, right)</summary>
+    </key>
+  </schema>
+</schemalist>

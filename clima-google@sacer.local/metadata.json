@@ -1,0 +1,8 @@
+{
+  "uuid": "clima-google@sacer.local",
+  "name": "Clima (estilo Google)",
+  "description": "Mostra o clima atual na barra do topo, com cartão ao estilo do Google: temperatura, condição, precipitação, umidade, vento, gráfico das próximas horas e previsão de 7 dias. Dados do Open-Meteo, sem chave de API.",
+  "shell-version": ["47", "48", "49", "50", "51"],
+  "settings-schema": "org.gnome.shell.extensions.clima-google",
+  "version": 1
+}

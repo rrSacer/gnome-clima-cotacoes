@@ -1,0 +1,32 @@
+.clima-card { width: 440px; padding: 16px 18px 10px 18px; spacing: 6px; }
+.clima-header { spacing: 12px; }
+.clima-place { font-size: 17px; font-weight: bold; }
+.clima-muted { color: rgba(160, 160, 160, 1); font-size: 11px; }
+.clima-condition { font-size: 12px; margin-top: 2px; }
+.clima-temp-row { spacing: 6px; margin-top: 6px; }
+.clima-big-temp { font-size: 46px; font-weight: 300; }
+.clima-big-unit { font-size: 15px; margin-top: 8px; color: rgba(160, 160, 160, 1); }
+.clima-details { spacing: 3px; padding-right: 6px; }
+.clima-detail { font-size: 12px; color: rgba(190, 190, 190, 1); }
+.clima-graph { margin-top: 6px; }
+.clima-hours { spacing: 0; margin-top: 2px; }
+.clima-hour { spacing: 3px; padding: 2px 0; }
+.clima-hour-temp { font-size: 12px; }
+.clima-separator { height: 1px; background-color: rgba(128, 128, 128, 0.3); margin: 8px 0 4px 0; }
+.clima-days { spacing: 2px; }
+.clima-day { spacing: 3px; padding: 8px 2px; border-radius: 10px; }
+.clima-day-today { background-color: rgba(128, 128, 128, 0.18); }
+.clima-day-name { font-size: 12px; }
+.clima-day-max { font-size: 12px; font-weight: bold; margin-right: 6px; }
+.clima-day-min { font-size: 12px; color: rgba(160, 160, 160, 1); }
+.clima-rain { font-size: 10px; color: #62a0ea; }
+.clima-footer { padding-top: 6px; spacing: 4px; }
+.clima-icon-button { padding: 4px 6px; border-radius: 8px; }
+.clima-icon-button:hover, .clima-icon-button:focus { background-color: rgba(128, 128, 128, 0.25); }
+.clima-panel-box { spacing: 5px; }
+.clima-panel-label { font-weight: bold; }
+.clima-tone-sun { color: #f6c21e; }
+.clima-tone-cloud { color: #b8c4d0; }
+.clima-tone-rain { color: #62a0ea; }
+.clima-tone-storm { color: #c061cb; }
+.clima-tone-snow { color: #dbeafe; }
